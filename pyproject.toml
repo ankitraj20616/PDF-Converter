@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "pdf-converter"
+version = "0.1.0"
+description = "A Website where you can convert a pdf into multiple other document format."
+authors = ["Ankit Raj"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.112.0"
+uvicorn = "^0.18.3"
+sqlalchemy = "^1.4.40"
+pymysql = "^1.1.1"
+jinja2 = "^3.1.4"
+passlib = "^1.7.0"
+cryptography = "^40.0.0"
+bcrypt = "^3.2.0"
+python-jose = "^2.0.0"
+pyjwt = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
